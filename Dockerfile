@@ -4,7 +4,7 @@ MAINTAINER Rohana Rezel <rohana.rezel@riolet.com>
 
 RUN yum install -y epel-release
 RUN yum install -y python27
-RUN yum install -y python27-pip
+RUN yum install -y python-pip
 RUN pip install virtualenv
 RUN pip install setuptools
 RUN chown -R 1001:0 $HOME && \
